@@ -6,6 +6,15 @@
 
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2W3ZSKL3P3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2W3ZSKL3P3');
+  </script>
   <meta charset="UTF-8">
   <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
   <link rel="icon" href="/img/fluid.png">
@@ -16,25 +25,23 @@
   <meta name="author" content="Ma Wenqian">
   <meta name="keywords" content="">
   
-    <meta name="description" content="第一讲 2022-4-20 1.1 基础知识  图乘法 Matlab（python or C）  \[ \begin{split} 静力学 \ &amp; Ku&#x3D;F\\ 动力学 \ &amp; M \ddot y+C \dot y + K y&#x3D;F(t) \end{split} \] 1.2 编程作业的主要内容  编程求解单自由度在简谐荷载下的响应，并分析其共振特性。 编程模拟人工地震波。 编程计算">
+    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="article">
-<meta property="og:title" content="结构动力学">
-<meta property="og:url" content="http://www.browq.com/2022/structural-dynamics/index.html">
+<meta property="og:title" content="Hexo使用入门（默认文档）">
+<meta property="og:url" content="http://www.browq.com/202205/cl3mcoeqn000ekmfp9mmjgf71/index.html">
 <meta property="og:site_name" content="Browq&#39;s Blog">
-<meta property="og:description" content="第一讲 2022-4-20 1.1 基础知识  图乘法 Matlab（python or C）  \[ \begin{split} 静力学 \ &amp; Ku&#x3D;F\\ 动力学 \ &amp; M \ddot y+C \dot y + K y&#x3D;F(t) \end{split} \] 1.2 编程作业的主要内容  编程求解单自由度在简谐荷载下的响应，并分析其共振特性。 编程模拟人工地震波。 编程计算">
+<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-05-14T14:44:20.000Z">
-<meta property="article:modified_time" content="2022-05-22T10:28:48.341Z">
+<meta property="article:published_time" content="2022-05-12T18:31:03.000Z">
+<meta property="article:modified_time" content="2022-05-22T16:14:38.363Z">
 <meta property="article:author" content="Ma Wenqian">
-<meta property="article:tag" content="Matlab">
-<meta property="article:tag" content="structure">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>结构动力学 - Browq&#39;s Blog</title>
+  <title>Hexo使用入门（默认文档） - Browq&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -69,7 +76,7 @@
 
 
   
-<link rel="stylesheet" href="//at.alicdn.com/t/font_3419231_xygrt9wvjl.css">
+<link rel="stylesheet" href="///at.alicdn.com/t/font_3419231_rre3i6yjtjp.css">
 
 
 
@@ -201,7 +208,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="结构动力学"></span>
+            <span id="subtitle" data-typed-text="Hexo使用入门（默认文档）"></span>
           
         </div>
 
@@ -212,8 +219,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-05-14 22:44" pubdate>
-          2022年5月14日 晚上
+        <time datetime="2022-05-13 02:31" pubdate>
+          2022年5月13日 凌晨
         </time>
       </span>
     
@@ -224,7 +231,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          442 字
+          367 字
         
       </span>
     
@@ -281,61 +288,33 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">结构动力学</h1>
-            
-              <p class="note note-info">
-                
-                  
-                    本文最后更新于：5 分钟前
-                  
-                
-              </p>
+            <h1 style="display: none">Hexo使用入门（默认文档）</h1>
             
             <div class="markdown-body">
               
-              <h1 id="第一讲-2022-4-20">第一讲 2022-4-20</h1>
-<h2 id="基础知识">1.1 基础知识</h2>
-<ul>
-<li>图乘法</li>
-<li>Matlab（python or C）</li>
-</ul>
-<p><span class="math display">\[
-\begin{split}
-静力学 \ &amp; Ku=F\\
-动力学 \ &amp; M \ddot y+C \dot y + K y=F(t)
-\end{split}
-\]</span></p>
-<h2 id="编程作业的主要内容">1.2 编程作业的主要内容</h2>
-<ol type="1">
-<li>编程求解单自由度在简谐荷载下的响应，并分析其共振特性。</li>
-<li>编程模拟人工地震波。</li>
-<li>编程计算单自由度结构在地震荷我下的响应（Duhamel积和Newmark_beta积分）
-1）计算速度，位移，加速度 2）计算并画出结构的加速度反应谱</li>
-<li>编程计算多自由度结构在地震荷载下或风荷载下的响应
-(Newmark-bota积分和振型叠加法）</li>
-</ol>
-<h2 id="课程考核办法">1.3 课程考核办法</h2>
-<ul>
-<li>期末考试（70%）</li>
-<li>平时（作业、考勤30%） ## 2.1 荷载</li>
-<li>地震荷载</li>
-<li>风荷载 ## 2.3 动力计算的自由度
-确定全部质量的位置，所需要独立几何参数的个数</li>
-<li>简化方法
-<ul>
-<li>集中质量法，将质量集中到某些位置</li>
-</ul></li>
-<li>注意事项
-<ul>
-<li>体系动力自由度数不一定等于质量数</li>
-<li>体系动力自由度与其超静定次数无关</li>
-<li>体系动力自由度决定了结构动力计算的精度</li>
-</ul></li>
-<li>确定方法
-<ul>
-<li>加约束</li>
-</ul></li>
-</ul>
+              <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+<p>More info: <a
+target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<p>More info: <a
+target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<p>More info: <a
+target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
               
             </div>
@@ -343,36 +322,6 @@
             <div>
               <div class="post-metas my-3">
   
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/" class="category-chain-item">课程资料</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
-  
-  
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/Matlab/">#Matlab</a>
-      
-        <a href="/tags/structure/">#structure</a>
-      
-    </div>
   
 </div>
 
@@ -382,8 +331,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>结构动力学</div>
-      <div>http://www.browq.com/2022/structural-dynamics/</div>
+      <div>Hexo使用入门（默认文档）</div>
+      <div>http://www.browq.com/202205/cl3mcoeqn000ekmfp9mmjgf71/</div>
     </div>
     <div class="license-meta">
       
@@ -395,7 +344,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年5月14日</div>
+          <div>2022年5月13日</div>
         </div>
       
       
@@ -425,9 +374,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/Structural-reliability-theory/" title="结构可靠度理论代码共享">
+                      <a href="/202205/structural-dynamics/" title="结构动力学">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">结构可靠度理论代码共享</span>
+                        <span class="hidden-mobile">结构动力学</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -484,12 +433,6 @@
 
 
   
-
-
-  
-  
-
-
 
 
 
@@ -746,44 +689,6 @@
 
 
   <script>Fluid.plugins.imageCaption();</script>
-
-  
-      <script>
-        MathJax = {
-          tex    : {
-            inlineMath: { '[+]': [['$', '$']] }
-          },
-          loader : {
-            load: ['ui/lazy']
-          },
-          options: {
-            renderActions: {
-              findScript    : [10, doc => {
-                document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-                  const display = !!node.type.match(/; *mode=display/);
-                  const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-                  const text = document.createTextNode('');
-                  node.parentNode.replaceChild(text, node);
-                  math.start = { node: text, delim: '', n: 0 };
-                  math.end = { node: text, delim: '', n: 0 };
-                  doc.math.push(math);
-                });
-              }, '', false],
-              insertedScript: [200, () => {
-                document.querySelectorAll('mjx-container').forEach(node => {
-                  let target = node.parentNode;
-                  if (target.nodeName.toLowerCase() === 'li') {
-                    target.parentNode.classList.add('has-jax');
-                  }
-                });
-              }, '', false]
-            }
-          }
-        };
-      </script>
-    
-
-  <script  src="https://lib.baomitu.com/mathjax/3.2.0/es5/tex-mml-chtml.js" ></script>
 
   <script  src="/js/local-search.js" ></script>
 
