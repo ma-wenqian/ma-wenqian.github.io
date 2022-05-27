@@ -36,26 +36,25 @@
   <meta name="author" content="Ma Wenqian">
   <meta name="keywords" content="马文千,mawenqian,文千说">
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="VBA创建新表汇总子sheet结果 源代码">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo使用入门（默认文档）">
-<meta property="og:url" content="http://www.browq.com/202205/cl3oielrw000b0v5kb3m95x2f/index.html">
+<meta property="og:title" content="Excel-vba创建表及粘贴公式结果">
+<meta property="og:url" content="http://www.browq.com/202205/cl3ojczab0001ll5k72lz6yv1/index.html">
 <meta property="og:site_name" content="Browq&#39;s Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="VBA创建新表汇总子sheet结果 源代码">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-05-12T18:31:03.000Z">
-<meta property="article:modified_time" content="2022-05-22T16:14:38.363Z">
+<meta property="article:published_time" content="2022-05-26T13:42:51.000Z">
+<meta property="article:modified_time" content="2022-05-26T13:48:43.137Z">
 <meta property="article:author" content="Ma Wenqian">
-<meta property="article:tag" content="马文千">
-<meta property="article:tag" content="mawenqian">
-<meta property="article:tag" content="文千说">
+<meta property="article:tag" content="VBA">
+<meta property="article:tag" content="Excel">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>Hexo使用入门（默认文档） - Browq&#39;s Blog</title>
+  <title>Excel-vba创建表及粘贴公式结果 - Browq&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -222,7 +221,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hexo使用入门（默认文档）"></span>
+            <span id="subtitle" data-typed-text="Excel-vba创建表及粘贴公式结果"></span>
           
         </div>
 
@@ -233,8 +232,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-05-13 02:31" pubdate>
-          2022年5月13日 凌晨
+        <time datetime="2022-05-26 21:42" pubdate>
+          2022年5月26日 晚上
         </time>
       </span>
     
@@ -245,7 +244,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          367 字
+          1.6k 字
         
       </span>
     
@@ -256,7 +255,7 @@
         
         
         
-          3 分钟
+          11 分钟
         
       </span>
     
@@ -302,33 +301,14 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hexo使用入门（默认文档）</h1>
+            <h1 style="display: none">Excel-vba创建表及粘贴公式结果</h1>
             
             <div class="markdown-body">
               
-              <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-<p>More info: <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-<p>More info: <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-<p>More info: <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+              <h1 id="vba创建新表汇总子sheet结果">VBA创建新表汇总子sheet结果</h1>
+<h2 id="源代码">源代码</h2>
+<span id="more"></span>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><code class="hljs vb"><span class="hljs-keyword">Public</span> <span class="hljs-keyword">Sub</span> abs_and_average()<br>    <span class="hljs-keyword">On</span> <span class="hljs-keyword">Error</span> <span class="hljs-keyword">Resume</span> <span class="hljs-keyword">Next</span>  <span class="hljs-comment">&#x27;这样不会报错。下标越界</span><br>    <span class="hljs-keyword">If</span> IsEmpty(Worksheets(<span class="hljs-string">&quot;data&quot;</span>)) <span class="hljs-keyword">Then</span><br>            Sheets.Add after:=Sheets(Sheets.Count)<br>          Sheets(Sheets.Count).Name = <span class="hljs-string">&quot;data&quot;</span><br>      <span class="hljs-keyword">Else</span><br>           Worksheets(<span class="hljs-string">&quot;data&quot;</span>).UsedRange.ClearContents<br>      <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span><br>  <br>  <br>  insertline=<span class="hljs-number">0</span><br>  <span class="hljs-keyword">For</span> <span class="hljs-keyword">Each</span> usedsheet <span class="hljs-keyword">In</span> Worksheets:<br>  insertline=insertline+<span class="hljs-number">1</span><br>      <span class="hljs-keyword">If</span> usedsheet.Range(<span class="hljs-string">&quot;b12&quot;</span>) = <span class="hljs-string">&quot;Cd3&quot;</span> <span class="hljs-keyword">Then</span><br>          usedsheet.Range(<span class="hljs-string">&quot;w14&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;齿轮箱输入转速(r/min)的绝对值&quot;</span><br>          usedsheet.Range(<span class="hljs-string">&quot;p10&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;输入轴转速&quot;</span><br>      <br>          <span class="hljs-comment">&#x27;单元格输入公式，相对引用（可以通过录制宏进行修改替换）</span><br>          usedsheet.Range(<span class="hljs-string">&quot;w15&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;=abs(RC[-1])&quot;</span><br>          <br>      <br>          <span class="hljs-comment">&#x27;判断需要填充多长，这里从第30行开始向后循环判断非空单元格</span><br>          i = <span class="hljs-number">30</span><br>          <span class="hljs-keyword">While</span> usedsheet.Cells(i + <span class="hljs-number">1</span>, <span class="hljs-number">10</span>) &lt;&gt; <span class="hljs-string">&quot;&quot;</span><br>              i = i + <span class="hljs-number">1</span><br>          Wend<br>          cc = <span class="hljs-string">&quot;w15:v&quot;</span> &amp; i<br>      <br>          <span class="hljs-comment">&#x27;使用range的方法，向下填充，还有其他功能，可以通过录制宏查看</span><br>          usedsheet.Range(cc).FillDown<br>          usedsheet.Range(<span class="hljs-string">&quot;q10&quot;</span>).Formula = <span class="hljs-string">&quot;=AVERAGE(U3964:U5014)&quot;</span><br><br><br>        <span class="hljs-comment">&#x27;把平均值输出到汇总表</span><br>        Worksheets(<span class="hljs-string">&quot;data&quot;</span>).cells(insertline,<span class="hljs-number">1</span>)=split(usedsheet.name,<span class="hljs-string">&quot;=&quot;</span>)(<span class="hljs-number">0</span>)<br>        Worksheets(<span class="hljs-string">&quot;data&quot;</span>).cells(insertline,<span class="hljs-number">2</span>)=split(usedsheet.name,<span class="hljs-string">&quot;=&quot;</span>)(<span class="hljs-number">1</span>)<br>        Worksheets(<span class="hljs-string">&quot;data&quot;</span>).cells(insertline,<span class="hljs-number">3</span>)=usedsheet.Range(<span class="hljs-string">&quot;Q10&quot;</span>).value<br><br>      <span class="hljs-keyword">Else</span><br>  <br>      <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span><br>  <span class="hljs-keyword">Next</span><br> Worksheets(<span class="hljs-string">&quot;data&quot;</span>).Sort.SortFields.Clear<br> Worksheets(<span class="hljs-string">&quot;data&quot;</span>).Sort.SortFields.Add2 <span class="hljs-keyword">Key</span>:=Range(<span class="hljs-string">&quot;B1:B20&quot;</span>), _<br>      SortOn:=xlSortOnValues, <span class="hljs-keyword">Order</span>:=xlAscending, DataOption:=xlSortNormal<br>  <span class="hljs-keyword">With</span> Worksheets(<span class="hljs-string">&quot;data&quot;</span>).Sort<br>      .SetRange Range(<span class="hljs-string">&quot;A1:C20&quot;</span>)<br>      .Header = xlGuess<br>      .MatchCase = <span class="hljs-literal">False</span><br>      .Orientation = xlTopToBottom<br>      .SortMethod = xlPinYin<br>      .Apply<br>  <span class="hljs-keyword">End</span> <span class="hljs-keyword">With</span><br>  <span class="hljs-keyword">End</span> <span class="hljs-keyword">Sub</span><br></code></pre></td></tr></table></figure>
 
               
             </div>
@@ -336,6 +316,36 @@ target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E5%8A%9E%E5%85%AC%E6%8A%80%E5%B7%A7/" class="category-chain-item">办公技巧</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/VBA/">#VBA</a>
+      
+        <a href="/tags/Excel/">#Excel</a>
+      
+    </div>
   
 </div>
 
@@ -345,8 +355,8 @@ target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hexo使用入门（默认文档）</div>
-      <div>http://www.browq.com/202205/cl3oielrw000b0v5kb3m95x2f/</div>
+      <div>Excel-vba创建表及粘贴公式结果</div>
+      <div>http://www.browq.com/202205/cl3ojczab0001ll5k72lz6yv1/</div>
     </div>
     <div class="license-meta">
       
@@ -358,7 +368,7 @@ target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年5月13日</div>
+          <div>2022年5月26日</div>
         </div>
       
       
@@ -388,15 +398,21 @@ target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/202205/structural-dynamics/" title="结构动力学">
+                      <a href="/202205/cl3ojczah000kll5k7ai3g2sh/" title="matlab-note">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">结构动力学</span>
+                        <span class="hidden-mobile">matlab-note</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/202205/python-cad-luji-corss-section/" title="python-CAD绘制路基横断面">
+                        <span class="hidden-mobile">python-CAD绘制路基横断面</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
@@ -412,7 +428,7 @@ target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment
       Fluid.utils.createCssLink('https://lib.baomitu.com/waline/2.3.2/waline.min.css')
       Fluid.utils.createScript('https://lib.baomitu.com/waline/2.3.2/waline.min.js', function() {
         var options = Object.assign(
-          {"serverURL":"https://my-blog-comment-mg8s4hr7b-ma-wenqian.vercel.app","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10},
+          {"serverURL":"https://comment.browq.com","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10},
           {
             el: '#waline',
             path: window.location.pathname

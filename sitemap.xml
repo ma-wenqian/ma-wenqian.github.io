@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/cl3oielrx000g0v5kh8cg5ec5/</loc>
+    <loc>http://www.browq.com/202205/cl3ojczah000kll5k7ai3g2sh/</loc>
     
     <lastmod>2022-05-27</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/cl3oielrv00080v5k6nk9e3hm/</loc>
+    <loc>http://www.browq.com/202205/cl3ojczab0001ll5k72lz6yv1/</loc>
     
     <lastmod>2022-05-26</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/cl3oielru00060v5kghhe2f7y/</loc>
+    <loc>http://www.browq.com/202205/cl3ojczaf0008ll5k26e88389/</loc>
     
     <lastmod>2022-05-23</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/cl3oielrw000b0v5kb3m95x2f/</loc>
+    <loc>http://www.browq.com/202205/cl3ojczag000dll5k9bgoe25c/</loc>
     
     <lastmod>2022-05-22</lastmod>
     
@@ -183,27 +183,6 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/tags/python/</loc>
-    <lastmod>2022-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.browq.com/tags/CAD/</loc>
-    <lastmod>2022-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.browq.com/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2022-05-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.browq.com/tags/you-get/</loc>
     <lastmod>2022-05-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -225,7 +204,28 @@
   </url>
   
   <url>
+    <loc>http://www.browq.com/tags/python/</loc>
+    <lastmod>2022-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.browq.com/tags/CAD/</loc>
+    <lastmod>2022-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.browq.com/tags/Matlab/</loc>
+    <lastmod>2022-05-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.browq.com/tags/%E7%BB%93%E6%9E%84%E5%8F%AF%E9%9D%A0%E5%BA%A6/</loc>
     <lastmod>2022-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -239,7 +239,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/tags/%E7%BB%93%E6%9E%84%E5%8F%AF%E9%9D%A0%E5%BA%A6/</loc>
+    <loc>http://www.browq.com/tags/%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2022-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -248,14 +248,14 @@
 
   
   <url>
-    <loc>http://www.browq.com/categories/%E6%B5%81%E6%B0%B4%E8%B4%A6/</loc>
+    <loc>http://www.browq.com/categories/%E5%8A%9E%E5%85%AC%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.browq.com/categories/%E5%8A%9E%E5%85%AC%E6%8A%80%E5%B7%A7/</loc>
+    <loc>http://www.browq.com/categories/%E6%B5%81%E6%B0%B4%E8%B4%A6/</loc>
     <lastmod>2022-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
