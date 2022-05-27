@@ -36,25 +36,25 @@
   <meta name="author" content="Ma Wenqian">
   <meta name="keywords" content="马文千,mawenqian,文千说">
   
-    <meta name="description" content="本文将记录《结构动力学》的课堂笔记和后续复习笔记，欢迎交流">
+    <meta name="description" content="VBA创建新表汇总子sheet结果 源代码">
 <meta property="og:type" content="article">
-<meta property="og:title" content="结构动力学">
-<meta property="og:url" content="http://www.browq.com/202205/structural-dynamics/index.html">
+<meta property="og:title" content="Excel-vba创建表及粘贴公式结果">
+<meta property="og:url" content="http://www.browq.com/202205/excel-vba-formula/index.html">
 <meta property="og:site_name" content="Browq&#39;s Blog">
-<meta property="og:description" content="本文将记录《结构动力学》的课堂笔记和后续复习笔记，欢迎交流">
+<meta property="og:description" content="VBA创建新表汇总子sheet结果 源代码">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-05-14T14:44:20.000Z">
-<meta property="article:modified_time" content="2022-05-22T14:25:17.711Z">
+<meta property="article:published_time" content="2022-05-26T13:42:51.000Z">
+<meta property="article:modified_time" content="2022-05-27T14:50:09.076Z">
 <meta property="article:author" content="Ma Wenqian">
-<meta property="article:tag" content="Matlab">
-<meta property="article:tag" content="structure">
+<meta property="article:tag" content="VBA">
+<meta property="article:tag" content="Excel">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>结构动力学 - Browq&#39;s Blog</title>
+  <title>Excel-vba创建表及粘贴公式结果 - Browq&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -221,7 +221,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="结构动力学"></span>
+            <span id="subtitle" data-typed-text="Excel-vba创建表及粘贴公式结果"></span>
           
         </div>
 
@@ -232,8 +232,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-05-14 22:44" pubdate>
-          2022年5月14日 晚上
+        <time datetime="2022-05-26 21:42" pubdate>
+          2022年5月26日 晚上
         </time>
       </span>
     
@@ -244,7 +244,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          471 字
+          1.6k 字
         
       </span>
     
@@ -255,7 +255,7 @@
         
         
         
-          3 分钟
+          11 分钟
         
       </span>
     
@@ -301,55 +301,14 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">结构动力学</h1>
+            <h1 style="display: none">Excel-vba创建表及粘贴公式结果</h1>
             
             <div class="markdown-body">
               
-              <p>本文将记录《结构动力学》的课堂笔记和后续复习笔记，欢迎交流</p>
+              <h1 id="vba创建新表汇总子sheet结果">VBA创建新表汇总子sheet结果</h1>
+<h2 id="源代码">源代码</h2>
 <span id="more"></span>
-<h1 id="第一讲-2022-4-20">第一讲 2022-4-20</h1>
-<h2 id="基础知识">1.1 基础知识</h2>
-<ul>
-<li>图乘法</li>
-<li>Matlab（python or C）</li>
-</ul>
-<p><span class="math display">\[
-\begin{split}
-静力学 \ &amp; Ku=F\\
-动力学 \ &amp; M \ddot y+C \dot y + K y=F(t)
-\end{split}
-\]</span></p>
-<h2 id="编程作业的主要内容">1.2 编程作业的主要内容</h2>
-<ol type="1">
-<li>编程求解单自由度在简谐荷载下的响应，并分析其共振特性。</li>
-<li>编程模拟人工地震波。</li>
-<li>编程计算单自由度结构在地震荷我下的响应（Duhamel积和Newmark_beta积分）
-1）计算速度，位移，加速度 2）计算并画出结构的加速度反应谱</li>
-<li>编程计算多自由度结构在地震荷载下或风荷载下的响应
-(Newmark-bota积分和振型叠加法）</li>
-</ol>
-<h2 id="课程考核办法">1.3 课程考核办法</h2>
-<ul>
-<li>期末考试（70%）</li>
-<li>平时（作业、考勤30%） ## 2.1 荷载</li>
-<li>地震荷载</li>
-<li>风荷载 ## 2.3 动力计算的自由度
-确定全部质量的位置，所需要独立几何参数的个数</li>
-<li>简化方法
-<ul>
-<li>集中质量法，将质量集中到某些位置</li>
-</ul></li>
-<li>注意事项
-<ul>
-<li>体系动力自由度数不一定等于质量数</li>
-<li>体系动力自由度与其超静定次数无关</li>
-<li>体系动力自由度决定了结构动力计算的精度</li>
-</ul></li>
-<li>确定方法
-<ul>
-<li>加约束</li>
-</ul></li>
-</ul>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><code class="hljs vb"><span class="hljs-keyword">Public</span> <span class="hljs-keyword">Sub</span> abs_and_average()<br>    <span class="hljs-keyword">On</span> <span class="hljs-keyword">Error</span> <span class="hljs-keyword">Resume</span> <span class="hljs-keyword">Next</span>  <span class="hljs-comment">&#x27;这样不会报错。下标越界</span><br>    <span class="hljs-keyword">If</span> IsEmpty(Worksheets(<span class="hljs-string">&quot;data&quot;</span>)) <span class="hljs-keyword">Then</span><br>            Sheets.Add after:=Sheets(Sheets.Count)<br>          Sheets(Sheets.Count).Name = <span class="hljs-string">&quot;data&quot;</span><br>      <span class="hljs-keyword">Else</span><br>           Worksheets(<span class="hljs-string">&quot;data&quot;</span>).UsedRange.ClearContents<br>      <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span><br>  <br>  <br>  insertline=<span class="hljs-number">0</span><br>  <span class="hljs-keyword">For</span> <span class="hljs-keyword">Each</span> usedsheet <span class="hljs-keyword">In</span> Worksheets:<br>  insertline=insertline+<span class="hljs-number">1</span><br>      <span class="hljs-keyword">If</span> usedsheet.Range(<span class="hljs-string">&quot;b12&quot;</span>) = <span class="hljs-string">&quot;Cd3&quot;</span> <span class="hljs-keyword">Then</span><br>          usedsheet.Range(<span class="hljs-string">&quot;w14&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;齿轮箱输入转速(r/min)的绝对值&quot;</span><br>          usedsheet.Range(<span class="hljs-string">&quot;p10&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;输入轴转速&quot;</span><br>      <br>          <span class="hljs-comment">&#x27;单元格输入公式，相对引用（可以通过录制宏进行修改替换）</span><br>          usedsheet.Range(<span class="hljs-string">&quot;w15&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;=abs(RC[-1])&quot;</span><br>          <br>      <br>          <span class="hljs-comment">&#x27;判断需要填充多长，这里从第30行开始向后循环判断非空单元格</span><br>          i = <span class="hljs-number">30</span><br>          <span class="hljs-keyword">While</span> usedsheet.Cells(i + <span class="hljs-number">1</span>, <span class="hljs-number">10</span>) &lt;&gt; <span class="hljs-string">&quot;&quot;</span><br>              i = i + <span class="hljs-number">1</span><br>          Wend<br>          cc = <span class="hljs-string">&quot;w15:v&quot;</span> &amp; i<br>      <br>          <span class="hljs-comment">&#x27;使用range的方法，向下填充，还有其他功能，可以通过录制宏查看</span><br>          usedsheet.Range(cc).FillDown<br>          usedsheet.Range(<span class="hljs-string">&quot;q10&quot;</span>).Formula = <span class="hljs-string">&quot;=AVERAGE(U3964:U5014)&quot;</span><br><br><br>        <span class="hljs-comment">&#x27;把平均值输出到汇总表</span><br>        Worksheets(<span class="hljs-string">&quot;data&quot;</span>).cells(insertline,<span class="hljs-number">1</span>)=split(usedsheet.name,<span class="hljs-string">&quot;=&quot;</span>)(<span class="hljs-number">0</span>)<br>        Worksheets(<span class="hljs-string">&quot;data&quot;</span>).cells(insertline,<span class="hljs-number">2</span>)=split(usedsheet.name,<span class="hljs-string">&quot;=&quot;</span>)(<span class="hljs-number">1</span>)<br>        Worksheets(<span class="hljs-string">&quot;data&quot;</span>).cells(insertline,<span class="hljs-number">3</span>)=usedsheet.Range(<span class="hljs-string">&quot;Q10&quot;</span>).value<br><br>      <span class="hljs-keyword">Else</span><br>  <br>      <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span><br>  <span class="hljs-keyword">Next</span><br> Worksheets(<span class="hljs-string">&quot;data&quot;</span>).Sort.SortFields.Clear<br> Worksheets(<span class="hljs-string">&quot;data&quot;</span>).Sort.SortFields.Add2 <span class="hljs-keyword">Key</span>:=Range(<span class="hljs-string">&quot;B1:B20&quot;</span>), _<br>      SortOn:=xlSortOnValues, <span class="hljs-keyword">Order</span>:=xlAscending, DataOption:=xlSortNormal<br>  <span class="hljs-keyword">With</span> Worksheets(<span class="hljs-string">&quot;data&quot;</span>).Sort<br>      .SetRange Range(<span class="hljs-string">&quot;A1:C20&quot;</span>)<br>      .Header = xlGuess<br>      .MatchCase = <span class="hljs-literal">False</span><br>      .Orientation = xlTopToBottom<br>      .SortMethod = xlPinYin<br>      .Apply<br>  <span class="hljs-keyword">End</span> <span class="hljs-keyword">With</span><br>  <span class="hljs-keyword">End</span> <span class="hljs-keyword">Sub</span><br></code></pre></td></tr></table></figure>
 
               
             </div>
@@ -367,7 +326,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/" class="category-chain-item">课程资料</a>
+  <a href="/categories/%E5%8A%9E%E5%85%AC%E6%8A%80%E5%B7%A7/" class="category-chain-item">办公技巧</a>
   
   
 
@@ -382,9 +341,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Matlab/">#Matlab</a>
+        <a href="/tags/VBA/">#VBA</a>
       
-        <a href="/tags/structure/">#structure</a>
+        <a href="/tags/Excel/">#Excel</a>
       
     </div>
   
@@ -396,8 +355,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>结构动力学</div>
-      <div>http://www.browq.com/202205/structural-dynamics/</div>
+      <div>Excel-vba创建表及粘贴公式结果</div>
+      <div>http://www.browq.com/202205/excel-vba-formula/</div>
     </div>
     <div class="license-meta">
       
@@ -409,7 +368,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年5月14日</div>
+          <div>2022年5月26日</div>
         </div>
       
       
@@ -439,9 +398,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/202205/Structural-reliability-theory/" title="结构可靠度理论代码共享">
+                      <a href="/202205/matlab-note/" title="matlab-note">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">结构可靠度理论代码共享</span>
+                        <span class="hidden-mobile">matlab-note</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -449,8 +408,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/202205/hello-hexo/" title="Hexo使用入门（默认文档）">
-                        <span class="hidden-mobile">Hexo使用入门（默认文档）</span>
+                      <a href="/202205/python-cad-luji-corss-section/" title="python-CAD绘制路基横断面">
+                        <span class="hidden-mobile">python-CAD绘制路基横断面</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -533,12 +492,6 @@
 
 
   
-
-
-  
-  
-
-
 
 
 
@@ -795,44 +748,6 @@
 
 
   <script>Fluid.plugins.imageCaption();</script>
-
-  
-      <script>
-        MathJax = {
-          tex    : {
-            inlineMath: { '[+]': [['$', '$']] }
-          },
-          loader : {
-            load: ['ui/lazy']
-          },
-          options: {
-            renderActions: {
-              findScript    : [10, doc => {
-                document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-                  const display = !!node.type.match(/; *mode=display/);
-                  const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-                  const text = document.createTextNode('');
-                  node.parentNode.replaceChild(text, node);
-                  math.start = { node: text, delim: '', n: 0 };
-                  math.end = { node: text, delim: '', n: 0 };
-                  doc.math.push(math);
-                });
-              }, '', false],
-              insertedScript: [200, () => {
-                document.querySelectorAll('mjx-container').forEach(node => {
-                  let target = node.parentNode;
-                  if (target.nodeName.toLowerCase() === 'li') {
-                    target.parentNode.classList.add('has-jax');
-                  }
-                });
-              }, '', false]
-            }
-          }
-        };
-      </script>
-    
-
-  <script  src="https://lib.baomitu.com/mathjax/3.2.0/es5/tex-mml-chtml.js" ></script>
 
   <script  src="/js/local-search.js" ></script>
 

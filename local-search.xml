@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>matlab-note</title>
-    <link href="/202205/cl3ojczah000kll5k7ai3g2sh/"/>
-    <url>/202205/cl3ojczah000kll5k7ai3g2sh/</url>
+    <title>comment</title>
+    <link href="/202205/comment/"/>
+    <url>/202205/comment/</url>
     
-    <content type="html"><![CDATA[<h2 id="cell读取时的区别">cell读取时{}()的区别</h2><ul><li>()读取得到的是元包结构，即cell数组</li><li>{}读取得到的是数据本身的内容，例如字符串</li></ul><span id="more"></span><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">% 这个例子</span><br>&gt;&gt; title=&#123;&#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125; &#123;<span class="hljs-string">&#x27;T&#x27;</span>&#125;    &#123;<span class="hljs-string">&#x27;heave-波能俘获效率&#x27;</span>&#125; &#125;<br><br>title =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">3</span> cell 数组<br><br>    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;<br><br>&gt;&gt; title(<span class="hljs-number">1</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;<br><br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125;<br><br>&gt;&gt; title(<span class="hljs-number">1</span>)(<span class="hljs-number">1</span>)<br>错误:  无效的数组索引。<br> <br>&gt;&gt; title(<span class="hljs-number">1</span>)&#123;<span class="hljs-number">1</span>&#125;<br>错误:  无效的数组索引。<br> <br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;&#123;<span class="hljs-number">1</span>&#125;<br><br><span class="hljs-built_in">ans</span> =<br><br>    <span class="hljs-string">&#x27;pitch-RAO&#x27;</span><br><br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;(<span class="hljs-number">1</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125;<br><br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="开通了评论功能">开通了评论功能</h1><p>本博客的评论模块采用<a href="https://waline.js.org">waline</a><br /><strong>note</strong> 官网介绍：一款基于 Valine衍生的简洁、安全的评论系统。</p><h2 id="构建参考官网链接">构建参考官网链接</h2><h2 id="评论说明">评论说明</h2><ul><li>昵称必须输入</li><li>如果输入qq邮箱，可以自动获取qq头像</li><li>如果输入网址，评论后点击你的昵称可以跳转到指定页面</li></ul>]]></content>
     
     
     
@@ -17,9 +17,34 @@
   
   
   <entry>
+    <title>matlab-note</title>
+    <link href="/202205/matlab-note/"/>
+    <url>/202205/matlab-note/</url>
+    
+    <content type="html"><![CDATA[<h2 id="cell读取时的区别">cell读取时{}()的区别</h2><ul><li>()读取得到的是元包结构，即cell数组</li><li>{}读取得到的是数据本身的内容，例如字符串</li></ul><span id="more"></span><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">% 这个例子</span><br>&gt;&gt; title=&#123;&#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125; &#123;<span class="hljs-string">&#x27;T&#x27;</span>&#125;    &#123;<span class="hljs-string">&#x27;heave-波能俘获效率&#x27;</span>&#125; &#125;<br><br>title =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">3</span> cell 数组<br><br>    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;<br><br>&gt;&gt; title(<span class="hljs-number">1</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;<br><br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125;<br><br>&gt;&gt; title(<span class="hljs-number">1</span>)(<span class="hljs-number">1</span>)<br>错误:  无效的数组索引。<br> <br>&gt;&gt; title(<span class="hljs-number">1</span>)&#123;<span class="hljs-number">1</span>&#125;<br>错误:  无效的数组索引。<br> <br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;&#123;<span class="hljs-number">1</span>&#125;<br><br><span class="hljs-built_in">ans</span> =<br><br>    <span class="hljs-string">&#x27;pitch-RAO&#x27;</span><br><br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;(<span class="hljs-number">1</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125;<br><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>note</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Matlab</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Excel-vba创建表及粘贴公式结果</title>
-    <link href="/202205/cl3ojczab0001ll5k72lz6yv1/"/>
-    <url>/202205/cl3ojczab0001ll5k72lz6yv1/</url>
+    <link href="/202205/excel-vba-formula/"/>
+    <url>/202205/excel-vba-formula/</url>
     
     <content type="html"><![CDATA[<h1 id="vba创建新表汇总子sheet结果">VBA创建新表汇总子sheet结果</h1><h2 id="源代码">源代码</h2><span id="more"></span><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><code class="hljs vb"><span class="hljs-keyword">Public</span> <span class="hljs-keyword">Sub</span> abs_and_average()<br>    <span class="hljs-keyword">On</span> <span class="hljs-keyword">Error</span> <span class="hljs-keyword">Resume</span> <span class="hljs-keyword">Next</span>  <span class="hljs-comment">&#x27;这样不会报错。下标越界</span><br>    <span class="hljs-keyword">If</span> IsEmpty(Worksheets(<span class="hljs-string">&quot;data&quot;</span>)) <span class="hljs-keyword">Then</span><br>            Sheets.Add after:=Sheets(Sheets.Count)<br>          Sheets(Sheets.Count).Name = <span class="hljs-string">&quot;data&quot;</span><br>      <span class="hljs-keyword">Else</span><br>           Worksheets(<span class="hljs-string">&quot;data&quot;</span>).UsedRange.ClearContents<br>      <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span><br>  <br>  <br>  insertline=<span class="hljs-number">0</span><br>  <span class="hljs-keyword">For</span> <span class="hljs-keyword">Each</span> usedsheet <span class="hljs-keyword">In</span> Worksheets:<br>  insertline=insertline+<span class="hljs-number">1</span><br>      <span class="hljs-keyword">If</span> usedsheet.Range(<span class="hljs-string">&quot;b12&quot;</span>) = <span class="hljs-string">&quot;Cd3&quot;</span> <span class="hljs-keyword">Then</span><br>          usedsheet.Range(<span class="hljs-string">&quot;w14&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;齿轮箱输入转速(r/min)的绝对值&quot;</span><br>          usedsheet.Range(<span class="hljs-string">&quot;p10&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;输入轴转速&quot;</span><br>      <br>          <span class="hljs-comment">&#x27;单元格输入公式，相对引用（可以通过录制宏进行修改替换）</span><br>          usedsheet.Range(<span class="hljs-string">&quot;w15&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;=abs(RC[-1])&quot;</span><br>          <br>      <br>          <span class="hljs-comment">&#x27;判断需要填充多长，这里从第30行开始向后循环判断非空单元格</span><br>          i = <span class="hljs-number">30</span><br>          <span class="hljs-keyword">While</span> usedsheet.Cells(i + <span class="hljs-number">1</span>, <span class="hljs-number">10</span>) &lt;&gt; <span class="hljs-string">&quot;&quot;</span><br>              i = i + <span class="hljs-number">1</span><br>          Wend<br>          cc = <span class="hljs-string">&quot;w15:v&quot;</span> &amp; i<br>      <br>          <span class="hljs-comment">&#x27;使用range的方法，向下填充，还有其他功能，可以通过录制宏查看</span><br>          usedsheet.Range(cc).FillDown<br>          usedsheet.Range(<span class="hljs-string">&quot;q10&quot;</span>).Formula = <span class="hljs-string">&quot;=AVERAGE(U3964:U5014)&quot;</span><br><br><br>        <span class="hljs-comment">&#x27;把平均值输出到汇总表</span><br>        Worksheets(<span class="hljs-string">&quot;data&quot;</span>).cells(insertline,<span class="hljs-number">1</span>)=split(usedsheet.name,<span class="hljs-string">&quot;=&quot;</span>)(<span class="hljs-number">0</span>)<br>        Worksheets(<span class="hljs-string">&quot;data&quot;</span>).cells(insertline,<span class="hljs-number">2</span>)=split(usedsheet.name,<span class="hljs-string">&quot;=&quot;</span>)(<span class="hljs-number">1</span>)<br>        Worksheets(<span class="hljs-string">&quot;data&quot;</span>).cells(insertline,<span class="hljs-number">3</span>)=usedsheet.Range(<span class="hljs-string">&quot;Q10&quot;</span>).value<br><br>      <span class="hljs-keyword">Else</span><br>  <br>      <span class="hljs-keyword">End</span> <span class="hljs-keyword">If</span><br>  <span class="hljs-keyword">Next</span><br> Worksheets(<span class="hljs-string">&quot;data&quot;</span>).Sort.SortFields.Clear<br> Worksheets(<span class="hljs-string">&quot;data&quot;</span>).Sort.SortFields.Add2 <span class="hljs-keyword">Key</span>:=Range(<span class="hljs-string">&quot;B1:B20&quot;</span>), _<br>      SortOn:=xlSortOnValues, <span class="hljs-keyword">Order</span>:=xlAscending, DataOption:=xlSortNormal<br>  <span class="hljs-keyword">With</span> Worksheets(<span class="hljs-string">&quot;data&quot;</span>).Sort<br>      .SetRange Range(<span class="hljs-string">&quot;A1:C20&quot;</span>)<br>      .Header = xlGuess<br>      .MatchCase = <span class="hljs-literal">False</span><br>      .Orientation = xlTopToBottom<br>      .SortMethod = xlPinYin<br>      .Apply<br>  <span class="hljs-keyword">End</span> <span class="hljs-keyword">With</span><br>  <span class="hljs-keyword">End</span> <span class="hljs-keyword">Sub</span><br></code></pre></td></tr></table></figure>]]></content>
     
@@ -143,12 +168,24 @@
   
   <entry>
     <title>git命令</title>
-    <link href="/202205/cl3ojczaf0008ll5k26e88389/"/>
-    <url>/202205/cl3ojczaf0008ll5k26e88389/</url>
+    <link href="/202205/git/"/>
+    <url>/202205/git/</url>
     
     <content type="html"><![CDATA[]]></content>
     
     
+    <categories>
+      
+      <category>note</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>git</tag>
+      
+    </tags>
     
   </entry>
   
@@ -320,8 +357,8 @@
   
   <entry>
     <title>Hexo使用入门（默认文档）</title>
-    <link href="/202205/cl3ojczag000dll5k9bgoe25c/"/>
-    <url>/202205/cl3ojczag000dll5k9bgoe25c/</url>
+    <link href="/202205/hello-hexo/"/>
+    <url>/202205/hello-hexo/</url>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your veryfirst post. Check <a href="https://hexo.io/docs/">documentation</a> formore info. If you get any problems when using Hexo, you can find theanswer in <ahref="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> oryou can ask me on <ahref="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start">Quick Start</h2><h3 id="create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <ahref="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <ahref="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <ahref="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
