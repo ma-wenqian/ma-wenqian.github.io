@@ -36,15 +36,15 @@
   <meta name="author" content="Ma Wenqian">
   <meta name="keywords" content="马文千,mawenqian,文千说">
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="cell读取时{}()的区别  ()读取得到的是元包结构，即cell数组 {}读取得到的是数据本身的内容，例如字符串">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo使用入门（默认文档）">
-<meta property="og:url" content="http://www.browq.com/202205/cl3n2sue7000e7e5kh2pp8ncp/index.html">
+<meta property="og:title" content="matlab-note">
+<meta property="og:url" content="http://www.browq.com/202205/cl3ogsrve000d7g5ka2lj3ozr/index.html">
 <meta property="og:site_name" content="Browq&#39;s Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="cell读取时{}()的区别  ()读取得到的是元包结构，即cell数组 {}读取得到的是数据本身的内容，例如字符串">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-05-12T18:31:03.000Z">
-<meta property="article:modified_time" content="2022-05-22T16:14:38.363Z">
+<meta property="article:published_time" content="2022-05-27T06:46:54.000Z">
+<meta property="article:modified_time" content="2022-05-27T13:11:11.604Z">
 <meta property="article:author" content="Ma Wenqian">
 <meta property="article:tag" content="马文千">
 <meta property="article:tag" content="mawenqian">
@@ -55,7 +55,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>Hexo使用入门（默认文档） - Browq&#39;s Blog</title>
+  <title>matlab-note - Browq&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -222,7 +222,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hexo使用入门（默认文档）"></span>
+            <span id="subtitle" data-typed-text="matlab-note"></span>
           
         </div>
 
@@ -233,8 +233,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-05-13 02:31" pubdate>
-          2022年5月13日 凌晨
+        <time datetime="2022-05-27 14:46" pubdate>
+          2022年5月27日 下午
         </time>
       </span>
     
@@ -245,7 +245,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          367 字
+          662 字
         
       </span>
     
@@ -256,7 +256,7 @@
         
         
         
-          3 分钟
+          5 分钟
         
       </span>
     
@@ -302,33 +302,17 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hexo使用入门（默认文档）</h1>
+            <h1 style="display: none">matlab-note</h1>
             
             <div class="markdown-body">
               
-              <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very
-first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for
-more info. If you get any problems when using Hexo, you can find the
-answer in <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
-you can ask me on <a
-target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="quick-start">Quick Start</h2>
-<h3 id="create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
-<p>More info: <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
-<p>More info: <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
-<p>More info: <a
-target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+              <h2 id="cell读取时的区别">cell读取时{}()的区别</h2>
+<ul>
+<li>()读取得到的是元包结构，即cell数组</li>
+<li>{}读取得到的是数据本身的内容，例如字符串</li>
+</ul>
+<span id="more"></span>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">% 这个例子</span><br>&gt;&gt; title=&#123;&#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125; &#123;<span class="hljs-string">&#x27;T&#x27;</span>&#125;    &#123;<span class="hljs-string">&#x27;heave-波能俘获效率&#x27;</span>&#125; &#125;<br><br>title =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">3</span> cell 数组<br><br>    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;<br><br>&gt;&gt; title(<span class="hljs-number">1</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;<br><br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125;<br><br>&gt;&gt; title(<span class="hljs-number">1</span>)(<span class="hljs-number">1</span>)<br>错误:  无效的数组索引。<br> <br>&gt;&gt; title(<span class="hljs-number">1</span>)&#123;<span class="hljs-number">1</span>&#125;<br>错误:  无效的数组索引。<br> <br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;&#123;<span class="hljs-number">1</span>&#125;<br><br><span class="hljs-built_in">ans</span> =<br><br>    <span class="hljs-string">&#x27;pitch-RAO&#x27;</span><br><br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;(<span class="hljs-number">1</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125;<br><br></code></pre></td></tr></table></figure>
 
               
             </div>
@@ -345,8 +329,8 @@ target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hexo使用入门（默认文档）</div>
-      <div>http://www.browq.com/202205/cl3n2sue7000e7e5kh2pp8ncp/</div>
+      <div>matlab-note</div>
+      <div>http://www.browq.com/202205/cl3ogsrve000d7g5ka2lj3ozr/</div>
     </div>
     <div class="license-meta">
       
@@ -358,7 +342,7 @@ target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年5月13日</div>
+          <div>2022年5月27日</div>
         </div>
       
       
@@ -388,15 +372,15 @@ target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/202205/structural-dynamics/" title="结构动力学">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">结构动力学</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/202205/cl3ogsrvd00087g5k3upr5eri/" title="Excel-vba创建表及粘贴公式结果">
+                        <span class="hidden-mobile">Excel-vba创建表及粘贴公式结果</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
