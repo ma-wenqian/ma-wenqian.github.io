@@ -44,7 +44,7 @@
 <meta property="og:description" content="场景描述 日常处理较少sheet的数据时，在第一行输入公式后，鼠标双击单元格右下角的十字柄，自动向下填充到最后一行，和左侧的数据对齐。 当数据量多且重复的时候，VBA就会简化工作，因此需要实现以下功能： - VBA输入公式&#x2F;文本，例如：&#x3D;A1*3&#x2F;sqrt(B1) - 判断需要填充的距离，即最后一个非空单元格 - 向下填充">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-05-21T18:31:03.000Z">
-<meta property="article:modified_time" content="2022-05-22T14:32:54.781Z">
+<meta property="article:modified_time" content="2022-05-28T13:06:15.241Z">
 <meta property="article:author" content="Ma Wenqian">
 <meta property="article:tag" content="VBA">
 <meta property="article:tag" content="Excel">
@@ -256,7 +256,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          735 字
+          810 字
         
       </span>
     
@@ -267,7 +267,7 @@
         
         
         
-          5 分钟
+          6 分钟
         
       </span>
     
@@ -325,7 +325,7 @@
 - 向下填充<br />
 <span id="more"></span></p>
 <h1 id="代码">代码</h1>
-<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><code class="hljs vb"><span class="hljs-keyword">Sub</span> atuo_filldown()<br><span class="hljs-comment">&#x27;</span><br><span class="hljs-comment">&#x27; 实现自动向下填充公式，模拟鼠标双击单元格右下角的十字柄</span><br><span class="hljs-comment">&#x27;</span><br>    <span class="hljs-comment">&#x27;单元格输入文字</span><br>    Range(<span class="hljs-string">&quot;U14&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;发电机转速（r/min）&quot;</span><br>    Range(<span class="hljs-string">&quot;v14&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;齿轮箱输入转速(r/min)&quot;</span><br><br>    <span class="hljs-comment">&#x27;单元格输入公式，相对引用（可以通过录制宏进行修改替换）</span><br>    Range(<span class="hljs-string">&quot;U15&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;=RC[-1]*60/2/3.1415926&quot;</span><br>    Range(<span class="hljs-string">&quot;V15&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;=RC[-19]*60/2/3.1415926&quot;</span><br><br>    <span class="hljs-comment">&#x27;判断需要填充多长，这里从第30行开始向后循环判断非空单元格</span><br>    i = <span class="hljs-number">30</span><br>    <span class="hljs-keyword">While</span> Cells(i+<span class="hljs-number">1</span>, <span class="hljs-number">10</span>) &lt;&gt; <span class="hljs-string">&quot;&quot;</span><br>        i = i + <span class="hljs-number">1</span><br>    Wend<br>    cc = <span class="hljs-string">&quot;u15:v&quot;</span> &amp; i<br><br>    <span class="hljs-comment">&#x27;使用range的方法，向下填充，还有其他功能，可以通过录制宏查看</span><br>    Range(cc).FillDown<br><span class="hljs-keyword">End</span> <span class="hljs-keyword">Sub</span><br><br></code></pre></td></tr></table></figure>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><code class="hljs vb"><span class="hljs-keyword">Sub</span> atuo_filldown()<br><span class="hljs-comment">&#x27;</span><br><span class="hljs-comment">&#x27; 实现自动向下填充公式，模拟鼠标双击单元格右下角的十字柄</span><br><span class="hljs-comment">&#x27;</span><br>    <span class="hljs-comment">&#x27;单元格输入文字</span><br>    Range(<span class="hljs-string">&quot;U14&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;发电机转速（r/min）&quot;</span><br>    Range(<span class="hljs-string">&quot;v14&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;齿轮箱输入转速(r/min)&quot;</span><br><br>    <span class="hljs-comment">&#x27;单元格输入公式，相对引用</span><br>    Range(<span class="hljs-string">&quot;U15&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;=RC[-1]*60/2/3.1415926&quot;</span><br>    Range(<span class="hljs-string">&quot;V15&quot;</span>).FormulaR1C1 = <span class="hljs-string">&quot;=RC[-19]*60/2/3.1415926&quot;</span><br>    <span class="hljs-comment">&#x27;直接输入公式示例如下</span><br>    <span class="hljs-comment">&#x27; Range(&quot;U15&quot;).Formula = &quot;=T15*60/2/3.1415926&quot;</span><br><br><br>    <span class="hljs-comment">&#x27;判断需要填充多长，这里从第30行开始向后循环判断非空单元格</span><br>    i = <span class="hljs-number">30</span><br>    <span class="hljs-keyword">While</span> Cells(i+<span class="hljs-number">1</span>, <span class="hljs-number">10</span>) &lt;&gt; <span class="hljs-string">&quot;&quot;</span><br>        i = i + <span class="hljs-number">1</span><br>    Wend<br>    cc = <span class="hljs-string">&quot;u15:v&quot;</span> &amp; i<br><br>    <span class="hljs-comment">&#x27;使用range的方法，向下填充，还有其他功能，可以通过录制宏查看</span><br>    Range(cc).FillDown<br><span class="hljs-keyword">End</span> <span class="hljs-keyword">Sub</span><br><br></code></pre></td></tr></table></figure>
 
               
             </div>
