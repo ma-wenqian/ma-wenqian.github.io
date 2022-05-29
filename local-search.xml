@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Matlab坐标轴标签与区间设置相互关联</title>
+    <link href="/202205/matlab-xylim-tick/"/>
+    <url>/202205/matlab-xylim-tick/</url>
+    
+    <content type="html"><![CDATA[<h1 id="matlab-坐标轴科学记数法表示与轴范围的影响">matlab坐标轴科学记数法表示与轴范围的影响</h1><h2 id="相关命令">相关命令</h2><p><code>xlim([xmin xmax])</code> x轴显示范围<br /><code>ylim([ymin ymax])</code> y轴显示范围<br /><code>xticklabel</code> <code>xtick</code> x坐标轴标签<br /><code>yticklabel</code> <code>ytick</code> x坐标轴标签</p><h2 id="介绍">介绍</h2><p>这一行的命令，意思是读取当前坐标轴的刻度值，然后转换为文本进行标记<span id="more"></span> <figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs matlab">set(gca,<span class="hljs-string">&#x27;xticklabel&#x27;</span>,get(gca,<span class="hljs-string">&#x27;xtick&#x27;</span>),<span class="hljs-string">&#x27;yticklabel&#x27;</span>,get(gca,<span class="hljs-string">&#x27;ytick&#x27;</span>));  <br></code></pre></td></tr></table></figure></p><p>如果，后续命令需要修改x、y轴的显示大小，如将x轴从[5,20]调整为[0,20],那么需要在设置区间后再改变坐标轴label，通过以下代码展示。</p><p>因此如果之后需要调整坐标轴内容，那么一定要注意代码书写顺序。</p><h2 id="示例代码">示例代码</h2><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs matlab">clc<br>clear<br>close all<br>x=[<span class="hljs-number">5</span>:<span class="hljs-number">20</span>];<br>y=x.^<span class="hljs-number">2</span>;<br><span class="hljs-built_in">figure</span>()<br><span class="hljs-comment">% 图1:先将标签修改为文本，然后修改区间显示，文本标签重新调整位置，已经不是真实值</span><br>subplot(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>)<br><span class="hljs-built_in">plot</span>(x,y,<span class="hljs-string">&#x27;-*&#x27;</span>,LineWidth=<span class="hljs-number">2</span>)<br>set(gca,<span class="hljs-string">&#x27;xticklabel&#x27;</span>,get(gca,<span class="hljs-string">&#x27;xtick&#x27;</span>),<span class="hljs-string">&#x27;yticklabel&#x27;</span>,get(gca,<span class="hljs-string">&#x27;ytick&#x27;</span>));<br>xlim([<span class="hljs-number">0</span> <span class="hljs-number">30</span>]);<br>title(<span class="hljs-string">&#x27;图1&#x27;</span>)<br><br><span class="hljs-comment">% 图2:先调整区间，然后将区间转化为文本，显示正常</span><br>subplot(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">2</span>)<br><span class="hljs-built_in">plot</span>(x,y,<span class="hljs-string">&#x27;-*&#x27;</span>,LineWidth=<span class="hljs-number">2</span>)<br>xlim([<span class="hljs-number">0</span> <span class="hljs-number">30</span>]);<br>set(gca,<span class="hljs-string">&#x27;xticklabel&#x27;</span>,get(gca,<span class="hljs-string">&#x27;xtick&#x27;</span>),<span class="hljs-string">&#x27;yticklabel&#x27;</span>,get(gca,<span class="hljs-string">&#x27;ytick&#x27;</span>));<br>title(<span class="hljs-string">&#x27;图2&#x27;</span>)<br></code></pre></td></tr></table></figure><figure><img src="https://s2.loli.net/2022/05/29/fEkoMzHaATbw2jP.jpg"alt="示例图片-2022-05-29-19-27-51" /><figcaption aria-hidden="true">示例图片-2022-05-29-19-27-51</figcaption></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Matlab Note</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Matlab</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>comment</title>
     <link href="/202205/comment/"/>
     <url>/202205/comment/</url>
@@ -17,16 +42,16 @@
   
   
   <entry>
-    <title>matlab-note</title>
-    <link href="/202205/matlab-note/"/>
-    <url>/202205/matlab-note/</url>
+    <title>Matlab基础易错命令记录</title>
+    <link href="/202205/matlab-false/"/>
+    <url>/202205/matlab-false/</url>
     
     <content type="html"><![CDATA[<h2 id="cell读取时的区别">cell读取时{}()的区别</h2><ul><li>()读取得到的是元包结构，即cell数组</li><li>{}读取得到的是数据本身的内容，例如字符串</li></ul><span id="more"></span><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><code class="hljs matlab"><span class="hljs-comment">% 这个例子</span><br>&gt;&gt; title=&#123;&#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125; &#123;<span class="hljs-string">&#x27;T&#x27;</span>&#125;    &#123;<span class="hljs-string">&#x27;heave-波能俘获效率&#x27;</span>&#125; &#125;<br><br>title =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">3</span> cell 数组<br><br>    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;<br><br>&gt;&gt; title(<span class="hljs-number">1</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell&#125;<br><br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125;<br><br>&gt;&gt; title(<span class="hljs-number">1</span>)(<span class="hljs-number">1</span>)<br>错误:  无效的数组索引。<br> <br>&gt;&gt; title(<span class="hljs-number">1</span>)&#123;<span class="hljs-number">1</span>&#125;<br>错误:  无效的数组索引。<br> <br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;&#123;<span class="hljs-number">1</span>&#125;<br><br><span class="hljs-built_in">ans</span> =<br><br>    <span class="hljs-string">&#x27;pitch-RAO&#x27;</span><br><br>&gt;&gt; title&#123;<span class="hljs-number">1</span>&#125;(<span class="hljs-number">1</span>)<br><br><span class="hljs-built_in">ans</span> =<br><br>  <span class="hljs-number">1</span>×<span class="hljs-number">1</span> cell 数组<br><br>    &#123;<span class="hljs-string">&#x27;pitch-RAO&#x27;</span>&#125;<br><br></code></pre></td></tr></table></figure>]]></content>
     
     
     <categories>
       
-      <category>note</category>
+      <category>Matlab Note</category>
       
     </categories>
     
