@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.browq.com/202205/you-get/</loc>
+    
+    <lastmod>2022-06-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.browq.com/links/index.html</loc>
     
     <lastmod>2022-06-01</lastmod>
@@ -11,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/cl3ztxe7e000nc5fp66rg032z/</loc>
+    <loc>http://www.browq.com/202205/cl403o1ko000jfkfp8gyx4nuv/</loc>
     
     <lastmod>2022-05-31</lastmod>
     
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/cl3ztxe7g0017c5fpdgh99f7d/</loc>
+    <loc>http://www.browq.com/202205/cl403o1kr0019fkfp5v9of2rk/</loc>
     
     <lastmod>2022-05-29</lastmod>
     
@@ -155,15 +164,6 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/you-get/</loc>
-    
-    <lastmod>2022-05-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.browq.com/202205/excel-vba-figure/</loc>
     
     <lastmod>2022-05-22</lastmod>
@@ -221,6 +221,13 @@
   </url>
   
   <url>
+    <loc>http://www.browq.com/tags/git/</loc>
+    <lastmod>2022-06-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.browq.com/tags/ffmpeg/</loc>
     <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -229,13 +236,6 @@
   
   <url>
     <loc>http://www.browq.com/tags/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/</loc>
-    <lastmod>2022-06-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.browq.com/tags/git/</loc>
     <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -321,14 +321,14 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/categories/%E5%A5%BD%E7%94%A8%E8%BD%AF%E4%BB%B6/</loc>
+    <loc>http://www.browq.com/categories/note/</loc>
     <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.browq.com/categories/note/</loc>
+    <loc>http://www.browq.com/categories/%E5%A5%BD%E7%94%A8%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2022-06-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
