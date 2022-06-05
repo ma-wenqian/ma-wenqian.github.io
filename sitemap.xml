@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/cl40llhj90014as5k09nm4hn3/</loc>
+    <loc>http://www.browq.com/202205/cl40lpd8j000igh5k8bgp3u8a/</loc>
     
     <lastmod>2022-05-31</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/cl40llhj8000uas5kdsl5hwgo/</loc>
+    <loc>http://www.browq.com/202205/cl40lpd8l0011gh5k86200nd2/</loc>
     
     <lastmod>2022-05-29</lastmod>
     
@@ -200,6 +200,13 @@
 
   
   <url>
+    <loc>http://www.browq.com/tags/Matlab/</loc>
+    <lastmod>2022-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.browq.com/tags/VBA/</loc>
     <lastmod>2022-06-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -249,13 +256,6 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.browq.com/tags/you-get/</loc>
     <lastmod>2022-06-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -277,7 +277,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/tags/Matlab/</loc>
+    <loc>http://www.browq.com/tags/%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2022-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -307,6 +307,13 @@
   </url>
   
   <url>
+    <loc>http://www.browq.com/categories/Matlab-Note/</loc>
+    <lastmod>2022-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.browq.com/categories/%E5%8A%9E%E5%85%AC%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-06-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -329,13 +336,6 @@
   
   <url>
     <loc>http://www.browq.com/categories/course-library/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.browq.com/categories/Matlab-Note/</loc>
     <lastmod>2022-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
