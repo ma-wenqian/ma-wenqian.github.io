@@ -4,9 +4,28 @@
   
   
   <entry>
+    <title>opencv环境配置</title>
+    <link href="/202206/opencv/"/>
+    <url>/202206/opencv/</url>
+    
+    <content type="html"><![CDATA[<h1 id="opencv开发环境配置">opencv开发环境配置</h1><h2 id="mac">Mac</h2><h3 id="homebrew安装">Homebrew安装</h3><p>1、安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">brew install wget<br>brew install cmake<br>brew install opencv<br></code></pre></td></tr></table></figure><p>2、检查</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">brew info opencv<br></code></pre></td></tr></table></figure><figure><img src="https://s2.loli.net/2022/06/09/lh3zVFe5GjfIURL.png"alt="安装成功示意图" /><figcaption aria-hidden="true">安装成功示意图</figcaption></figure><p>如果有打红叉的，说明那个没有被安装，可以单独对他用一下brewinstall</p><figure><img src="https://s2.loli.net/2022/06/09/TfukgdMzbIwa31y.png"alt="未完成示例" /><figcaption aria-hidden="true">未完成示例</figcaption></figure><h2 id="参考资料">参考资料</h2><ol type="1"><li><ahref="https://blog.csdn.net/weixin_43562948/article/details/103956901">macOS版homebrew+VScode配置opencv（c/c++）亲测可用</a></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>opencv</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>homebrew</title>
-    <link href="/202205/cl40lul4o000vr15kdve7fnp9/"/>
-    <url>/202205/cl40lul4o000vr15kdve7fnp9/</url>
+    <link href="/202205/cl46uqnz2000nuo5khm2bbycr/"/>
+    <url>/202205/cl46uqnz2000nuo5khm2bbycr/</url>
     
     <content type="html"><![CDATA[]]></content>
     
@@ -18,8 +37,8 @@
   
   <entry>
     <title>学习计划</title>
-    <link href="/202205/cl40lul4p0019r15k2adn3hlm/"/>
-    <url>/202205/cl40lul4p0019r15k2adn3hlm/</url>
+    <link href="/202205/cl46uqnz5001duo5k9u105ove/"/>
+    <url>/202205/cl46uqnz5001duo5k9u105ove/</url>
     
     <content type="html"><![CDATA[<p>最近接触到docker这个概念，不知道是什么，怎么用，之后有空了学习一下。<br /><ahref="https://www.bilibili.com/video/BV1s54y1n7Ev?spm_id_from=333.337.search-card.all.click">B站视频</a><br /><a href="https://www.docker.com">docker官网</a></p>]]></content>
     

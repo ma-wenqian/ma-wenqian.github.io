@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.browq.com/202206/opencv/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.browq.com/202205/you-get/</loc>
     
     <lastmod>2022-06-04</lastmod>
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/cl40lul4o000vr15kdve7fnp9/</loc>
+    <loc>http://www.browq.com/202205/cl46uqnz2000nuo5khm2bbycr/</loc>
     
     <lastmod>2022-05-31</lastmod>
     
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/202205/cl40lul4p0019r15k2adn3hlm/</loc>
+    <loc>http://www.browq.com/202205/cl46uqnz5001duo5k9u105ove/</loc>
     
     <lastmod>2022-05-29</lastmod>
     
@@ -193,7 +202,7 @@
 
   <url>
     <loc>http://www.browq.com/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -201,98 +210,105 @@
   
   <url>
     <loc>http://www.browq.com/tags/VBA/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/Excel/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.browq.com/tags/git/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/Matlab/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/ffmpeg/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.browq.com/tags/git/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.browq.com/tags/opencv/</loc>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/python/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/CAD/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/you-get/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.browq.com/tags/%E7%BB%93%E6%9E%84%E5%8F%AF%E9%9D%A0%E5%BA%A6/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/tags/structure/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.browq.com/tags/%E7%BB%93%E6%9E%84%E5%8F%AF%E9%9D%A0%E5%BA%A6/</loc>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -300,43 +316,43 @@
 
   
   <url>
-    <loc>http://www.browq.com/categories/%E5%8A%9E%E5%85%AC%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2022-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.browq.com/categories/%E6%B5%81%E6%B0%B4%E8%B4%A6/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.browq.com/categories/note/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <loc>http://www.browq.com/categories/%E5%8A%9E%E5%85%AC%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/categories/Matlab-Note/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/categories/%E5%A5%BD%E7%94%A8%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.browq.com/categories/note/</loc>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.browq.com/categories/course-library/</loc>
-    <lastmod>2022-06-05</lastmod>
+    <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

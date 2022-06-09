@@ -36,26 +36,27 @@
   <meta name="author" content="Ma Wenqian">
   <meta name="keywords" content="马文千,mawenqian,文千说">
   
-    <meta name="description" content="最近接触到docker这个概念，不知道是什么，怎么用，之后有空了学习一下。 B站视频 docker官网">
+    <meta name="description" content="opencv开发环境配置 Mac Homebrew安装 1、安装 123brew install wgetbrew install cmakebrew install opencv 2、检查 1brew info opencv   安装成功示意图  如果有打红叉的，说明那个没有被安装，可以单独对他用一下brew install   未完成示例  参考资料  macOS版homebrew+VScod">
 <meta property="og:type" content="article">
-<meta property="og:title" content="学习计划">
-<meta property="og:url" content="http://www.browq.com/202205/cl40lul4p0019r15k2adn3hlm/index.html">
+<meta property="og:title" content="opencv环境配置">
+<meta property="og:url" content="http://www.browq.com/202206/opencv/index.html">
 <meta property="og:site_name" content="Browq&#39;s Blog">
-<meta property="og:description" content="最近接触到docker这个概念，不知道是什么，怎么用，之后有空了学习一下。 B站视频 docker官网">
+<meta property="og:description" content="opencv开发环境配置 Mac Homebrew安装 1、安装 123brew install wgetbrew install cmakebrew install opencv 2、检查 1brew info opencv   安装成功示意图  如果有打红叉的，说明那个没有被安装，可以单独对他用一下brew install   未完成示例  参考资料  macOS版homebrew+VScod">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-05-29T14:06:14.000Z">
-<meta property="article:modified_time" content="2022-05-29T14:08:30.284Z">
+<meta property="og:image" content="https://s2.loli.net/2022/06/09/lh3zVFe5GjfIURL.png">
+<meta property="og:image" content="https://s2.loli.net/2022/06/09/TfukgdMzbIwa31y.png">
+<meta property="article:published_time" content="2022-06-09T09:49:00.000Z">
+<meta property="article:modified_time" content="2022-06-09T10:02:29.647Z">
 <meta property="article:author" content="Ma Wenqian">
-<meta property="article:tag" content="马文千">
-<meta property="article:tag" content="mawenqian">
-<meta property="article:tag" content="文千说">
+<meta property="article:tag" content="opencv">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://s2.loli.net/2022/06/09/lh3zVFe5GjfIURL.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>学习计划 - Browq&#39;s Blog</title>
+  <title>opencv环境配置 - Browq&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -234,7 +235,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="学习计划"></span>
+            <span id="subtitle" data-typed-text="opencv环境配置"></span>
           
         </div>
 
@@ -245,8 +246,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-05-29 22:06" pubdate>
-          2022年5月29日 晚上
+        <time datetime="2022-06-09 17:49" pubdate>
+          2022年6月9日 下午
         </time>
       </span>
     
@@ -257,7 +258,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          49 字
+          193 字
         
       </span>
     
@@ -314,22 +315,42 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">学习计划</h1>
+            <h1 style="display: none">opencv环境配置</h1>
             
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2022年5月29日 晚上
+                    本文最后更新于：2022年6月9日 晚上
                   
                 
               </p>
             
             <div class="markdown-body">
               
-              <p>最近接触到docker这个概念，不知道是什么，怎么用，之后有空了学习一下。<br />
-<a
-target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1s54y1n7Ev?spm_id_from=333.337.search-card.all.click">B站视频</a><br />
-<a target="_blank" rel="noopener" href="https://www.docker.com">docker官网</a></p>
+              <h1 id="opencv开发环境配置">opencv开发环境配置</h1>
+<h2 id="mac">Mac</h2>
+<h3 id="homebrew安装">Homebrew安装</h3>
+<p>1、安装</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">brew install wget<br>brew install cmake<br>brew install opencv<br></code></pre></td></tr></table></figure>
+<p>2、检查</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">brew info opencv<br></code></pre></td></tr></table></figure>
+<figure>
+<img src="https://s2.loli.net/2022/06/09/lh3zVFe5GjfIURL.png" srcset="/img/loading.gif" lazyload
+alt="安装成功示意图" />
+<figcaption aria-hidden="true">安装成功示意图</figcaption>
+</figure>
+<p>如果有打红叉的，说明那个没有被安装，可以单独对他用一下brew
+install</p>
+<figure>
+<img src="https://s2.loli.net/2022/06/09/TfukgdMzbIwa31y.png" srcset="/img/loading.gif" lazyload
+alt="未完成示例" />
+<figcaption aria-hidden="true">未完成示例</figcaption>
+</figure>
+<h2 id="参考资料">参考资料</h2>
+<ol type="1">
+<li><a
+target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_43562948/article/details/103956901">macOS版homebrew+VScode配置opencv（c/c++）亲测可用</a></li>
+</ol>
 
               
             </div>
@@ -337,6 +358,13 @@ target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1s54y1n7Ev
             <div>
               <div class="post-metas my-3">
   
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/opencv/">#opencv</a>
+      
+    </div>
   
 </div>
 
@@ -346,8 +374,8 @@ target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1s54y1n7Ev
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>学习计划</div>
-      <div>http://www.browq.com/202205/cl40lul4p0019r15k2adn3hlm/</div>
+      <div>opencv环境配置</div>
+      <div>http://www.browq.com/202206/opencv/</div>
     </div>
     <div class="license-meta">
       
@@ -359,7 +387,7 @@ target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1s54y1n7Ev
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年5月29日</div>
+          <div>2022年6月9日</div>
         </div>
       
       
@@ -389,18 +417,12 @@ target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1s54y1n7Ev
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/202205/cl40lul4o000vr15kdve7fnp9/" title="homebrew">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">homebrew</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/202205/matlab-xylim-tick/" title="Matlab坐标轴标签与区间设置相互关联">
-                        <span class="hidden-mobile">Matlab坐标轴标签与区间设置相互关联</span>
+                      <a href="/202205/cl46uqnz2000nuo5khm2bbycr/" title="homebrew">
+                        <span class="hidden-mobile">homebrew</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
