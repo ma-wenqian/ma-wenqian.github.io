@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>附件下载测试</title>
+    <link href="/202207/download-test/"/>
+    <url>/202207/download-test/</url>
+    
+    <content type="html"><![CDATA[<p>正文正文</p><p>附件下载地址 model model.dwg <a href="/afile/中午那个.dwg"title="xiazai">download</a><br /><a href="/Excel修改数据图表格式.md">222</a> image.png</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>opencv环境配置</title>
     <link href="/202206/opencv/"/>
     <url>/202206/opencv/</url>
@@ -24,8 +37,8 @@
   
   <entry>
     <title>homebrew</title>
-    <link href="/202205/cl47tnwx7000kty5kau3b8ttt/"/>
-    <url>/202205/cl47tnwx7000kty5kau3b8ttt/</url>
+    <link href="/202205/cl61qpan7000no9jfanbsgojq/"/>
+    <url>/202205/cl61qpan7000no9jfanbsgojq/</url>
     
     <content type="html"><![CDATA[]]></content>
     
@@ -37,10 +50,10 @@
   
   <entry>
     <title>学习计划</title>
-    <link href="/202205/cl47tnwxa0019ty5k8f3y4m8h/"/>
-    <url>/202205/cl47tnwxa0019ty5k8f3y4m8h/</url>
+    <link href="/202205/cl61qpan90017o9jf35q67oom/"/>
+    <url>/202205/cl61qpan90017o9jf35q67oom/</url>
     
-    <content type="html"><![CDATA[<p>最近接触到docker这个概念，不知道是什么，怎么用，之后有空了学习一下。<br /><ahref="https://www.bilibili.com/video/BV1s54y1n7Ev?spm_id_from=333.337.search-card.all.click">B站视频</a><br /><a href="https://www.docker.com">docker官网</a></p>]]></content>
+    <content type="html"><![CDATA[<p>最近接触到docker这个概念，不知道是什么，怎么用，之后有空了学习一下。<br /><ahref="https://www.bilibili.com/video/BV1s54y1n7Ev?spm_id_from=333.337.search-card.all.click">B站视频</a><br /><a href="https://www.docker.com">docker官网</a></p><p>https://volantis.js.org/examples/</p>]]></content>
     
     
     
