@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.browq.com/202205/cl621c6vk000vf6jfda03cy4z/</loc>
-    <lastmod>2022-07-24</lastmod>
+    <loc>http://www.browq.com/202205/ffmpeg/</loc>
+    <lastmod>2022-07-28</lastmod>
+  </url>
+  <url>
+    <loc>http://www.browq.com/202205/comment/</loc>
+    <lastmod>2022-07-28</lastmod>
   </url>
   <url>
     <loc>http://www.browq.com/202206/opencv/</loc>
@@ -11,10 +15,6 @@
   <url>
     <loc>http://www.browq.com/202205/you-get/</loc>
     <lastmod>2022-06-04</lastmod>
-  </url>
-  <url>
-    <loc>http://www.browq.com/202205/cl621c6vi000if6jf12sgdie0/</loc>
-    <lastmod>2022-05-31</lastmod>
   </url>
   <url>
     <loc>http://www.browq.com/202205/matlab-xylim-tick/</loc>
@@ -41,19 +41,7 @@
     <lastmod>2022-05-27</lastmod>
   </url>
   <url>
-    <loc>http://www.browq.com/202205/comment/</loc>
-    <lastmod>2022-05-27</lastmod>
-  </url>
-  <url>
     <loc>http://www.browq.com/202205/hello-hexo/</loc>
-    <lastmod>2022-05-27</lastmod>
-  </url>
-  <url>
-    <loc>http://www.browq.com/202205/ffmpeg/</loc>
-    <lastmod>2022-05-27</lastmod>
-  </url>
-  <url>
-    <loc>http://www.browq.com/202205/record/</loc>
     <lastmod>2022-05-27</lastmod>
   </url>
   <url>
