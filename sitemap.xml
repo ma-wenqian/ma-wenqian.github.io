@@ -196,7 +196,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/tags/git/</loc>
+    <loc>http://www.browq.com/tags/Matlab/</loc>
     <lastmod>2022-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -217,14 +217,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/tags/opencv/</loc>
-    <lastmod>2022-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.browq.com/tags/Matlab/</loc>
+    <loc>http://www.browq.com/tags/git/</loc>
     <lastmod>2022-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -273,7 +266,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/tags/structure/</loc>
+    <loc>http://www.browq.com/tags/opencv/</loc>
     <lastmod>2022-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -281,6 +274,13 @@
   
   <url>
     <loc>http://www.browq.com/tags/%E7%BB%93%E6%9E%84%E5%8F%AF%E9%9D%A0%E5%BA%A6/</loc>
+    <lastmod>2022-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.browq.com/tags/structure/</loc>
     <lastmod>2022-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -296,7 +296,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/categories/note/</loc>
+    <loc>http://www.browq.com/categories/Matlab-Note/</loc>
     <lastmod>2022-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -310,7 +310,7 @@
   </url>
   
   <url>
-    <loc>http://www.browq.com/categories/Matlab-Note/</loc>
+    <loc>http://www.browq.com/categories/note/</loc>
     <lastmod>2022-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
