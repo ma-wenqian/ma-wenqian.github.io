@@ -15,16 +15,43 @@ cd OpenSees
 
 ## 1. Setup environment
 
- 1.1 install CMake
- 1.2 install visual studio 2019 (default dictionary, C:\Program Files (x86)\Microsoft Visual Studio\2019)
- 1.3 install IntelOne Basic & HPC Toolkits (default dictionary,C:\Program Files (x86)\Intel\oneAPI)
+### 1.1 install CMake and git
 
- 1.4 install python 3.11 or create conda env
+```bash
+# download cmake
+https://cmake.org/download/
+```
+
+### 1.2 install visual studio 2019 
+
+> default dictionary `C:\Program Files (x86)\Microsoft Visual Studio\2019`
+
+ ```bash
+ https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2019
+ ```
+
+### 1.3 install IntelOne Basic & HPC Toolkits
+
+> default dictionary `C:\Program Files (x86)\Intel\oneAPI`
+
+  ```bash
+ https://registrationcenter-download.intel.com/akdlm/IRC_NAS/7dff44ba-e3af-4448-841c-0d616c8da6e7/w_BaseKit_p_2024.1.0.595_offline.exe
+ https://registrationcenter-download.intel.com/akdlm/IRC_NAS/c95a3b26-fc45-496c-833b-df08b10297b9/w_HPCKit_p_2024.1.0.561_offline.exe
+ ```
+
+### 1.4 install python 3.11
+
+you can create an env using conda
+
+```bash
+conda create -n ops-compile python=3.11
+conda activate ops-compile
+```
 
 ### 1.5 install conan
 
 ```bash
-pip install conan<2.0
+pip install "conan<2.0"
 ```
 
 
