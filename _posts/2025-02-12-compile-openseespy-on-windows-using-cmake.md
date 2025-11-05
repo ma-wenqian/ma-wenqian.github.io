@@ -34,6 +34,8 @@ https://cmake.org/download/
 
 > default dictionary `C:\Program Files (x86)\Intel\oneAPI`
 
+![](https://img.vinkey.top/photos/262c392f77c8ec0f2bd5df8440e04238.png)
+
   ```bash
  https://registrationcenter-download.intel.com/akdlm/IRC_NAS/7dff44ba-e3af-4448-841c-0d616c8da6e7/w_BaseKit_p_2024.1.0.595_offline.exe
  https://registrationcenter-download.intel.com/akdlm/IRC_NAS/c95a3b26-fc45-496c-833b-df08b10297b9/w_HPCKit_p_2024.1.0.561_offline.exe
