@@ -60,7 +60,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
-
+      - name: Deploy to EdgeOne Pages
+        uses: TencentEdgeOne/edgeone-pages-action@v1
+        with:
+          token: ${{ secrets.EDGEONE_API_TOKEN }}
+          project-name: "english-blog"
+          build-path: "_site${{ steps.pages.outputs.base_path }}"
   deploy:
     environment:
       name: github-pages
